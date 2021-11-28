@@ -1,7 +1,7 @@
 import Speaker from "./Speaker";
 
 const Speakers = ({ speakers }) => (
-  <div className="flex justify-evenly">
+  <div className="flex flex-col sm:flex-row justify-evenly">
     {speakers.map((speaker) => (
       <Speaker speaker={speaker} />
     ))}
