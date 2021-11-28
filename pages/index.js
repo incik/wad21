@@ -23,7 +23,7 @@ export default function Home() {
 
         <ModeSwitch darkMode={darkMode} switcher={setDarkMode} />
 
-        <main className="flex items-start w-full justify-center text-center flex-1 px-10 flex-wrap">
+        <main className="flex items-start w-full justify-center text-center flex-1 px-5 sm:px-10 flex-wrap">
           {data.success.data.agenda.map((lecture) => {
             const tags = lecture.agendaInfo.tags.split(",");
             return (

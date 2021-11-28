@@ -1,5 +1,5 @@
 const Speaker = ({ speaker }) => (
-  <div className="flex p-2 w-full max-w-sm shadow rounded-lg mr-2 bg-gray-50 dark:bg-gray-600 mb-2 sm:mb-0">
+  <div className="flex p-2 w-full max-w-md shadow rounded-lg mr-2 bg-gray-50 dark:bg-gray-600 mb-2 sm:mb-0">
     <img
       loading="lazy"
       src={`https://cdn.hubilo.com/speaker/2116606/350/${speaker.profile_img}`}
