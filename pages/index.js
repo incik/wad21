@@ -87,7 +87,7 @@ export default function Home() {
 
         <footer className="flex flex-col items-center justify-center w-full h-24 border-t">
           <div className="flex">
-            <span className="text-xs">Made for</span>
+            <span className="text-xs dark:text-gray-200">Made for</span>
             <div className="flex flex-col items-center ml-2">
               <div className="w-2 h-2 bg-amber-500 mb-0.5" />
               <div className="flex">
